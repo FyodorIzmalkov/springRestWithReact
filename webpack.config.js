@@ -6,9 +6,8 @@ module.exports = {
     cache: true,
     mode: 'development',
     output: {
-        path: path.join(__dirname, '/dist'),
-        filename: 'bundle.js',
-        publicPath: '/public/'
+        path: __dirname,
+        filename: './src/main/resources/static/built/bundle.js'
     },
     module: {
         rules: [
